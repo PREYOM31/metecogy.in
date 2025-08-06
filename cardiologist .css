@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(0, 195, 255);
+}
+.doctor-speciality{
+    text-align: center;
+    color:white;
+    display: block;
+    background-color:red;
+    box-shadow: rgb(63, 60, 60);
+    animation: cubic-bezier(1, 0, 0, 1);
+    font-family:  sans-serif;
+    padding:10px;
+    text-transform: capitalize;
+    border-radius: 20px ;
+}
+.doctor-profile {
+    text-align: center;
+    background: #f8f8f8;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    min-width: 180px;
+}
+ .doctor-profiles {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+ .doctor-profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+.booking-apointment{
+     text-decoration: none;
+  text-align: center;
+  display:block;
+  border-radius: 20px;
+  padding:10px;
+  box-shadow: #1b1c1c;
+  background-color: #ff4d4d;
+  color: white;
+}
+#doctor-1 img{
+    width:100px;
+    height:100px;
+    object-fit:contain;
+    margin-bottom:10px;
+
+
+}
+#doctor-1{
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 15px;
+  min-width: 140px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+    
+
+

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meditech Login</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="function"href="index.js">
+</head>
+<body>
+  <!-- left side -->
+  <div class="page-wrapper">
+    <div class="left-panel">
+      
+      <h1 class="brand-name">Metecogy</h1>
+      <p class="tagline">Modern Emergency & Patient Management Platform</p>
+
+      <!-- EMERGENCY BUTTON -->
+      <a href="#" class="emergency-btn" onclick="makeEmergencyCall()">EMERGENCY</a>
+    </div> 
+    <script src="index.js"></script>
+    <!-- login form  heading -->
+    <div class="login-container">
+      <h2 class="welcome-text">Welcome to Metecogy</h2>
+      <h3 class="login-title">Login</h3>
+      <!-- login form -->
+      <form class="login-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" />
+
+        <label for="postal">Postal Code</label>
+        <input type="text" id="postal" name="postal" placeholder="Postal Code" />
+
+        <label for="contact">Contact</label>
+        <input type="text" id="contact" name="contact" placeholder="+91" />
+
+        <label for="city">City</label>
+        <select name="city" id="city" class="form input">
+          <option value="langting">Langting</option>
+          <option value="halflong">Halflong</option>
+          <option value="lumding">Lumding</option>
+          <option value="maibang">Maibang</option>
+          <option value="silchar"> silchar </option>
+          <option value="manderdisa"> manderdisa</option>
+        </select>
+       <!-- going to next page  -->
+        <a   href="checkingdoc.html"class="submit-btn"type="submit">login</a>
+
+      </form>
+    </div> 
+  </div> 
+  <!-- heart animation -->
+  <div class="svg-heart-container">
+  <svg viewBox="0 0 32 29.6" class="heartbeat-svg">
+    <path
+      fill="#ff1744"
+      d="M23.6,0c-3.4,0-6.4,2-7.6,4.9C14.8,2,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4
+        c0,4.2,3.4,7.6,9.2,13.1c2.5,2.2,5.1,4.4,6.8,6c1.7-1.6,4.3-3.8,6.8-6
+        C28.6,16,32,12.6,32,8.4C32,3.8,28.2,0,23.6,0z"/>
+  </svg>
+</div>
+<!-- private limited caption  -->
+  <br>
+  <p class="footer">@Metecogy Private Limited. All rights reserved.</p>
+</body>
+</html>

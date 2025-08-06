@@ -1,0 +1,72 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f4f9fb;
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.booking-section {
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+  padding: 40px 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+}
+
+.doctor-grid {
+  display: flex;
+  gap: 20px;
+  padding: 10px 5px;
+  width: max-content;
+  justify-content: flex-start;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.doctor-card {
+  flex-shrink: 0;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  padding: 15px;
+  min-width: 140px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.doctor-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-card img {
+  width: 200px;
+  height:200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.doctor-text {
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  border-radius: 20px;
+  padding: 10px;
+  box-shadow: #00c6ff;
+  background-color: #ff4d4d;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-top: 10px;
+}
